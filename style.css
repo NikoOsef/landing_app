@@ -1,0 +1,28 @@
+
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.navbar{
+    background-color: grey;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.nav{
+   display: flex;
+   gap:50px;
+   font-size: 25px;
+   width: 400px;
+   height: 400x;
+}
+
+a{
+    color: #F9FAF8;
+}
