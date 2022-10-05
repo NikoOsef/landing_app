@@ -19,6 +19,7 @@ img{
    display: flex;
    gap:50px;
    font-size: 25px;
+   font-family: Courier;
    width: 400px;
    height: 400x;
 }
@@ -26,3 +27,17 @@ img{
 a{
     color: #F9FAF8;
 }
+
+.family{ 
+    background-color: #404040;
+    height:500px;
+    margin-top: -50px;
+    display:flex;
+    justify-content:center;
+}
+
+.caraxes{
+    width:200px;
+    height:300px;
+}
+
