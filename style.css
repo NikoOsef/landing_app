@@ -102,3 +102,56 @@ h1{
     font-family:cursive;
     color:whitesmoke;
 }
+
+.quote{
+    display:flex;
+    justify-content: center;
+    background-color: #300613;
+opacity: 0.8;
+background-image: radial-gradient(#060608 0.5px, #300613 0.5px);
+background-size: 10px 10px;
+color: black;
+}
+
+.quote1{
+    width:800px;
+    height: 300px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    background-color: rgb(15, 51, 12);
+    margin-top: 100px;
+
+
+}
+.daemon{
+    height:250px;
+    width:250px;
+    border-radius: 60%;
+    margin-top: 30px;
+    
+    
+}
+
+.quo{
+    width:300px;
+    margin-top: 100px;
+    font-size:20px;
+    font-weight: 700;
+    color: white;
+ 
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background: rgb(125, 128, 125);
+    
+
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50pxt;
+}
