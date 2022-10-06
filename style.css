@@ -1,18 +1,20 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 img{
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .navbar{
     background-color: grey;
-    color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: space-between;    
 }
 
 .nav{
@@ -22,22 +24,81 @@ img{
    font-family: Courier;
    width: 400px;
    height: 400x;
+   margin-right: 80px;
+   margin-top: 30px;
+   
 }
 
 a{
-    color: #F9FAF8;
+    color: whitesmoke;
 }
 
-.family{ 
+.intro{
+    width:500px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:monospace;
+    
+
+}
+.about{ 
     background-color: #404040;
     height:500px;
     margin-top: -50px;
     display:flex;
     justify-content:center;
+
 }
 
-.caraxes{
-    width:200px;
+.caraxesimg{
+    width:400px;
+    height:400px;
+    margin-left:200px;
+}
+
+button{
+    width: 150px;
+    height:50px;
+    border-radius: 30%;
+    margin-top: 50px;
+    background-color: #404040;
+    margin-left:150px;
+    margin-bottom:50px;
+}
+
+button:hover{
+    background-color: darkred;
+    color: black;
+}
+
+.alliance{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+   
+background-color: #300613;
+opacity: 0.8;
+background-image: radial-gradient(#060608 0.5px, #300613 0.5px);
+background-size: 10px 10px;
+color: black;
+    
+}
+
+.imge{
+    width: 250px;
+    height: 250px;
+}
+
+.imge:hover{
+    width:300px;
     height:300px;
 }
 
+h1{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family:cursive;
+    color:whitesmoke;
+}
